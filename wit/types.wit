@@ -8,8 +8,4 @@ interface types{
         strike: option<f64>,
         option-kind: option<option-kind>
     }
-
-    record error-response {
-        error: string
-    }
 }

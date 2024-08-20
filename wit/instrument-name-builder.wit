@@ -1,5 +1,6 @@
 interface builder{
-    use types.{request, error-response};
+    use types.{request};
+    use jabratech:common/types.{response};
 
-    build: func(request: request)-> result<string, error-response>;
+    build: func(request: request)-> result<string, response>;
 }
